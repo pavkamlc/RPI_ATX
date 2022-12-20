@@ -1,0 +1,221 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +12V-Power
+#
+DEF +12V-Power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+12V-Power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +3.3V-Power
+#
+DEF +3.3V-Power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+3.3V-Power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +5V-Power
+#
+DEF +5V-Power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V-Power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 292303-7-SamacSys_Parts
+#
+DEF 292303-7-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "292303-7-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "2923037" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F292303%7FE12%7Fpdf%7FEnglish%7FENG_CD_292303_E12.pdf%7F292303-7" 650 0 50 H I L CNN
+F4 "Type A USB right angled PCB receptacle" 650 -100 50 H I L CNN "Description"
+F5 "7.01" 650 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "292303-7" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-292303-7" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/292303-7?qs=e6gk%2FTaAuqWZCg5WWmtijA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "292303-7" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/292303-7/te-connectivity" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 800 0 200 L 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 800 -200 200 L 50 50 0 0 P
+X 4 4 800 -300 200 L 50 50 0 0 P
+X 5 5 0 0 200 R 50 50 0 0 P
+X 6 6 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 39-30-1200-SamacSys_Parts
+#
+DEF 39-30-1200-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "39-30-1200-SamacSys_Parts" 750 200 50 H V L CNN
+F2 "39-30-120Y_012" 750 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/039300020_sd.pdf" 750 0 50 H I L CNN
+F4 "Mini-Fit Jr. Header, Dual Row, Right-Angle, with Snap-in Plastic Peg PCB Lock, 20 Circuits, PA Polyamide Nylon 6/6 94V-0" 750 -100 50 H I L CNN "Description"
+F5 "10" 750 -200 50 H I L CNN "Height"
+F6 "Molex" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "39-30-1200" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-39-30-1200" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/39-30-1200?qs=53in8j6h7oR6C0HbBr5XgQ%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -1000 200 -1000 200 100 N
+X 1 1 0 -900 200 R 50 50 0 0 P
+X 10 10 0 0 200 R 50 50 0 0 P
+X 11 11 900 -900 200 L 50 50 0 0 P
+X 12 12 900 -800 200 L 50 50 0 0 P
+X 13 13 900 -700 200 L 50 50 0 0 P
+X 14 14 900 -600 200 L 50 50 0 0 P
+X 15 15 900 -500 200 L 50 50 0 0 P
+X 16 16 900 -400 200 L 50 50 0 0 P
+X 17 17 900 -300 200 L 50 50 0 0 P
+X 18 18 900 -200 200 L 50 50 0 0 P
+X 19 19 900 -100 200 L 50 50 0 0 P
+X 2 2 0 -800 200 R 50 50 0 0 P
+X 20 20 900 0 200 L 50 50 0 0 P
+X 3 3 0 -700 200 R 50 50 0 0 P
+X 4 4 0 -600 200 R 50 50 0 0 P
+X 5 5 0 -500 200 R 50 50 0 0 P
+X 6 6 0 -400 200 R 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 0 -200 200 R 50 50 0 0 P
+X 9 9 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 39357-0002-SamacSys_Parts
+#
+DEF 39357-0002-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "39357-0002-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "393570002" 650 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/393570002_sd.pdf" 650 0 50 H I L CNN
+F4 "3.50mm Pitch Beau Eurostyle Fixed Mount PCB Terminal Block,  Circuits" 650 -100 50 H I L CNN "Description"
+F5 "8.64" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "39357-0002" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-39357-0002" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/39357-0002?qs=c7V%252BsbZfmqvL0V%252BWJEAGdg%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# BLG2X20-SamacSys_Parts
+#
+DEF BLG2X20-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "BLG2X20-SamacSys_Parts" 750 200 50 H V L CNN
+F2 "RHDR40W64P254X254_2X20_5130X500X865P" 750 100 50 H I L CNN
+F3 "https://asset.conrad.com/media10/add/160267/c1/-/en/001492280DS01/datablad-1492280-econ-connect-female-header-standaard-aantal-rijen-2-aantal-polen-per-rij-20-blg2x20-1-stuks.pdf" 750 0 50 H I L CNN
+F4 "Female header 2x20 p straight" 750 -100 50 H I L CNN "Description"
+F5 "8.65" 750 -200 50 H I L CNN "Height"
+F6 "Econ Connect" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BLG2X20" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -2000 200 -2000 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+X 11 11 0 -500 200 R 50 50 0 0 P
+X 12 12 900 -500 200 L 50 50 0 0 P
+X 13 13 0 -600 200 R 50 50 0 0 P
+X 14 14 900 -600 200 L 50 50 0 0 P
+X 15 15 0 -700 200 R 50 50 0 0 P
+X 16 16 900 -700 200 L 50 50 0 0 P
+X 17 17 0 -800 200 R 50 50 0 0 P
+X 18 18 900 -800 200 L 50 50 0 0 P
+X 19 19 0 -900 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 20 20 900 -900 200 L 50 50 0 0 P
+X 21 21 0 -1000 200 R 50 50 0 0 P
+X 22 22 900 -1000 200 L 50 50 0 0 P
+X 23 23 0 -1100 200 R 50 50 0 0 P
+X 24 24 900 -1100 200 L 50 50 0 0 P
+X 25 25 0 -1200 200 R 50 50 0 0 P
+X 26 26 900 -1200 200 L 50 50 0 0 P
+X 27 27 0 -1300 200 R 50 50 0 0 P
+X 28 28 900 -1300 200 L 50 50 0 0 P
+X 29 29 0 -1400 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 30 30 900 -1400 200 L 50 50 0 0 P
+X 31 31 0 -1500 200 R 50 50 0 0 P
+X 32 32 900 -1500 200 L 50 50 0 0 P
+X 33 33 0 -1600 200 R 50 50 0 0 P
+X 34 34 900 -1600 200 L 50 50 0 0 P
+X 35 35 0 -1700 200 R 50 50 0 0 P
+X 36 36 900 -1700 200 L 50 50 0 0 P
+X 37 37 0 -1800 200 R 50 50 0 0 P
+X 38 38 900 -1800 200 L 50 50 0 0 P
+X 39 39 0 -1900 200 R 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 40 40 900 -1900 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# GND-Power
+#
+DEF GND-Power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-Power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GNDPWR-Power
+#
+DEF GNDPWR-Power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "GNDPWR-Power" 0 -130 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -50 0 0 N
+P 3 0 1 8 -40 -50 -50 -80 -50 -80 N
+P 3 0 1 8 -20 -50 -30 -80 -30 -80 N
+P 3 0 1 8 0 -50 -10 -80 -10 -80 N
+P 3 0 1 8 20 -50 10 -80 10 -80 N
+P 3 0 1 8 40 -50 -40 -50 -40 -50 N
+P 4 0 1 8 40 -50 30 -80 30 -80 30 -80 N
+X GNDPWR 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 292303-7-SamacSys_Parts
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F292303%7FE12%7Fpdf%7FEnglish%7FENG_CD_292303_E12.pdf%7F292303-7
+$ENDCMP
+#
+$CMP 39-30-1200-SamacSys_Parts
+F https://www.molex.com/pdm_docs/sd/039300020_sd.pdf
+$ENDCMP
+#
+$CMP 39357-0002-SamacSys_Parts
+F https://www.molex.com/pdm_docs/sd/393570002_sd.pdf
+$ENDCMP
+#
+$CMP BLG2X20-SamacSys_Parts
+F https://asset.conrad.com/media10/add/160267/c1/-/en/001492280DS01/datablad-1492280-econ-connect-female-header-standaard-aantal-rijen-2-aantal-polen-per-rij-20-blg2x20-1-stuks.pdf
+$ENDCMP
+#
+#End Doc Library
