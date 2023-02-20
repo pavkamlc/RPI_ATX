@@ -1,1 +1,6 @@
 *.zip
+*.log
+temp-freerouting.dsn
+freerouting.dsn
+freerouting.dsn
+freerouting.dsn
